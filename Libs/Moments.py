@@ -1,5 +1,5 @@
-from enum import enum
-class Moments(enum):
+from enum import Enum
+class Moments(Enum):
     Lever = 1
     DebutMatin = 2
     Matin = 3
